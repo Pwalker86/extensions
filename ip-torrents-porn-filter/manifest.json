@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "IP torrents porn filter",
+  "version": "1.2",
+  "description": "Remove all porn listings from IP torrents",
+  "icons": {
+    "16": "images/icon-16.png",
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://iptorrents.com/*"
+      ]
+    }
+  ]
+}
