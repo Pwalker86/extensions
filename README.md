@@ -1,6 +1,6 @@
 To install locally, because I'm not bothering to put these in the web store:
 
-Go to [Chrome extensions](chrome://extensions/)
+Go to `chrome://extensions/`
 
 Click `Load Unpacked`
 
